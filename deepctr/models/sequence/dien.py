@@ -1,11 +1,4 @@
-# -*- coding:utf-8 -*-
-"""
-Author:
-    Weichen Shen, weichenswc@163.com
 
-Reference:
-    [1] Zhou G, Mou N, Fan Y, et al. Deep Interest Evolution Network for Click-Through Rate Prediction[J]. arXiv preprint arXiv:1809.03672, 2018. (https://arxiv.org/pdf/1809.03672.pdf)
-"""
 
 import tensorflow as tf
 from tensorflow.python.keras.models import Model

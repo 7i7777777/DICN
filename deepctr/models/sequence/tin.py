@@ -1,5 +1,3 @@
-
-
 from collections import OrderedDict
 
 from tensorflow.python.keras.models import Model
@@ -15,7 +13,7 @@ from ...layers.sequence import (AttentionSequencePoolingLayer, BiasEncoding,
 from ...layers.utils import concat_func, combined_dnn_input
 
 
-def DSIN(dnn_feature_columns, sess_feature_list, sess_max_count=5, bias_encoding=False,
+def TIN(dnn_feature_columns, sess_feature_list, sess_max_count=5, bias_encoding=False,
          att_embedding_size=1, att_head_num=8, dnn_hidden_units=(256, 128, 64), dnn_activation='relu', dnn_dropout=0,
          dnn_use_bn=False, l2_reg_dnn=0, l2_reg_embedding=1e-6, seed=1024, task='binary',
          ):
